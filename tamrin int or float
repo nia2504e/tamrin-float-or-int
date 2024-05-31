@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+void f(int a)
+{
+	cout << a << "is int!" << endl;
+}
+void f(float a)
+{
+	cout << a << "is float!" << endl;
+}
+int main()
+{
+	float a;
+	cin >> a;
+	f(a);
+}
